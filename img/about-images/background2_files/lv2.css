@@ -1,0 +1,340 @@
+@font-face {
+	font-family: "FuturaStdMediumRegular";
+	src: url("/media/fonts/louisvuitton/futurastd-medium-webfont.eot");
+	src: url("/media/fonts/louisvuitton/futurastd-medium-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("/media/fonts/louisvuitton/futurastd-medium-webfont.woff") format("woff"),
+	     url("/media/fonts/louisvuitton/futurastd-medium-webfont.ttf") format("truetype"),
+	     url("/media/fonts/louisvuitton/futurastd-medium-webfont.svg#FuturaStdMediumRegular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jw-skin-lv2 {
+	background: transparent;
+}
+.jw-skin-lv2 .jw-background-color {
+	background: rgba(0,0,0,0.75);
+}
+.jw-skin-lv2 .jw-reset:not(.jw-icon) {
+	font-family: "FuturaStdMediumRegular", "Futura", sans-serif;
+}
+.jw-skin-lv2 .jw-controlbar {
+	background: rgba(0,0,0,0.3);
+	display: block;
+	height: 2em;
+	left: 0;
+	max-width: 32em;
+	margin: 0 auto 1em auto;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.fcplayer > .jw-skin-lv2.jw-flag-audio-player:not(.fc-flag-controls-disabled) .jw-controlbar,
+.fcplayer > .jw-skin-lv2.fc-countdown:not(.jw-flag-user-inactive):not(.fc-flag-controls-disabled) .jw-controlbar,
+.fcplayer > .jw-skin-lv2.fc-livedone:not(.jw-flag-user-inactive):not(.fc-flag-controls-disabled) .jw-controlbar {
+	display: block !important;
+}
+.jw-skin-lv2.fc-mobile .jw-controlbar {
+	max-width: 24em;
+}
+.jw-skin-lv2.fc-mobile.jw-state-idle .jw-controlbar,
+.jw-skin-lv2.fc-mobile.jw-state-paused .jw-controlbar,
+.jw-skin-lv2.fc-mobile.jw-state-complete .jw-controlbar {
+	display: none;
+}
+.jw-skin-lv2:not(.jw-state-error) .jw-title {
+	display: none !important;
+}
+
+.jw-skin-lv2 .jw-icon-inline,
+.jw-skin-lv2 .jw-icon-tooltip,
+.jw-skin-lv2 .jw-slider-horizontal,
+.jw-skin-lv2 .jw-text-duration,
+.jw-skin-lv2 .jw-text-elapsed {
+	height: 2em;
+	line-height: 2em;
+	padding: 0;
+}
+.jw-skin-lv2 .jw-tooltip-title {
+	color: #FFFFFF;
+}
+.jw-skin-lv2 .jw-text {
+	color: #FFFFFF;
+}
+.jw-skin-lv2 .jw-button-color {
+	color: #C0C0C0;
+}
+.jw-skin-lv2 .jw-button-color:hover {
+	color: #FFFFFF;
+}
+.jw-skin-lv2 .jw-toggle,
+.jw-skin-lv2 .jw-toggle:hover,
+.jw-skin-lv2:not(.fc-mobile) .jw-toggle.jw-off:hover {
+	color: #FFFFFF;
+}
+.jw-skin-lv2 .jw-toggle.jw-off {
+	color: #606060;
+}
+.jw-skin-lv2 .jw-controlbar .jw-icon:before {
+	padding: 0 .7em;
+}
+.jw-skin-lv2 .jw-text-elapsed,
+.jw-skin-lv2 .jw-text-duration {
+	display: none !important;
+}
+.jw-skin-lv2 .jw-icon-display {
+	color: #FFFFFF !important;
+	font-size: 1.5em !important;
+	height: 1.5em  !important;
+	line-height: 1.5em  !important;
+	width: 1.5em !important;
+}
+.jw-skin-lv2 .jw-icon-display:focus {
+	background: transparent !important;
+}
+.jw-skin-lv2 .jw-icon-display:hover {
+	color: #FFFFFF !important;
+}
+.jw-skin-lv2 .jw-icon-display:before {
+	padding-left: 0
+}
+.jw-skin-lv2 .jw-display-icon-container {
+	background: transparent !important;
+	text-shadow: 0 0 1px #000;
+}
+.jw-skin-lv2 .jw-display-icon-container .jw-icon-display {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.jw-skin-lv2 .jw-display .jw-icon:before {
+	font-size: 1em !important;
+}
+.jw-skin-lv2.jw-state-idle .jw-display-icon-container,
+.jw-skin-lv2.jw-state-paused .jw-display-icon-container,
+.jw-skin-lv2.jw-state-complete .jw-display-icon-container {
+	border-radius: 50%;
+	border: 3px solid #FFFFFF;
+	box-shadow: 0 0 1px #000, inset 0 0 1px #000;
+	box-sizing: border-box;
+	color: #FFFFFF !important;
+	display: table;
+	height: 3em !important;
+	margin-top: -1.5em;
+	width: 3em  !important;
+}
+.jw-skin-lv2.jw-state-idle .jw-display-container .jw-display-icon-container,
+.jw-skin-lv2.jw-state-paused .jw-display-container .jw-display-icon-container,
+.jw-skin-lv2.jw-state-complete .jw-display-container .jw-display-icon-container {
+	margin-top: 0;
+}
+.jw-skin-lv2.jw-state-idle .jw-display-icon-container .jw-icon-display,
+.jw-skin-lv2.jw-state-paused .jw-display-icon-container .jw-icon-display {
+	-webkit-transform: scaleX(0.7);
+	-moz-transform: scaleX(0.7);
+	-ms-transform: scaleX(0.7);
+	-o-transform: scaleX(0.7);
+	transform: scaleX(0.7);
+}
+
+.jw-skin-lv2.jw-state-buffering .jw-display-icon-container {
+	margin-top: -46px;
+}
+.jw-skin-lv2.jw-state-buffering .jw-display-container .jw-display-icon-container {
+	margin-top: 0;
+}
+.jw-skin-lv2.jw-state-buffering .jw-display-icon-container .jw-icon-display:before {
+	content: "" !important;
+	background: url("data:image/png;base64,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") center center no-repeat;
+	display: block;
+	height: 92px;
+	width: 92px;
+}
+
+.jw-skin-lv2 .jw-rail {
+	background-color: rgba(0,0,0,0.25);
+	box-shadow: none;
+}
+.jw-skin-lv2 .jw-buffer {
+	background-color: #494949;
+}
+.jw-skin-lv2 .jw-progress {
+	background: #FFFFFF;
+}
+.jw-skin-lv2 .jw-knob {
+	display: none
+}
+.jw-skin-lv2 .jw-slider-horizontal {
+	height: 0.3em;
+	vertical-align: middle;
+}
+.jw-skin-lv2 .jw-slider-horizontal .jw-slider-container {
+	height: 100%;
+	vertical-align: top
+}
+.jw-skin-lv2 .jw-slider-horizontal .jw-rail,
+.jw-skin-lv2 .jw-slider-horizontal .jw-buffer,
+.jw-skin-lv2 .jw-slider-horizontal .jw-progress {
+	height: 100%;
+	border-radius: 0;
+}
+.jw-skin-lv2 .jw-slider-horizontal .jw-cue {
+	top: -0.04999999999999999em;
+	width: .3em;
+	height: .3em;
+	background-color: #666;
+	border-radius: 50%;
+}
+.jw-skin-lv2 .jw-slider-vertical .jw-rail,
+.jw-skin-lv2 .jw-slider-vertical .jw-buffer,
+.jw-skin-lv2 .jw-slider-vertical .jw-progress {
+	width: .2em;
+}
+.jw-skin-lv2 .jw-volume-tip {
+	width: 100%;
+	left: -45%;
+	padding-bottom: .7em;
+}
+.jw-skin-lv2 .jw-tooltip-time {
+	min-width: 0;
+}
+.jw-skin-lv2 .jw-controlbar-right-group .jw-icon-inline:first-child:before {
+	border: 0;
+}
+.jw-skin-lv2 .jw-controlbar-center-group {
+	padding: 0;
+}
+.jw-skin-lv2 .jw-icon-tooltip .jw-option:hover,
+.jw-skin-lv2 .jw-icon-tooltip .jw-active-option {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.jw-skin-lv2 .jw-icon-volume {
+	min-width: 2.6em
+}
+.jw-skin-lv2 .jw-time-tip,
+.jw-skin-lv2 .jw-menu,
+.jw-skin-lv2 .jw-volume-tip,
+.jw-skin-lv2 .jw-skip {
+	border: 1px solid #000;
+}
+.jw-skin-lv2 .jw-time-tip {
+	padding: .2em;
+	bottom: 1.3em;
+}
+.jw-skin-lv2 .jw-menu,
+.jw-skin-lv2 .jw-volume-tip {
+	bottom: .24em;
+}
+.jw-skin-lv2 .jw-menu {
+	padding: 0;
+}
+
+.jw-skin-lv2 .jw-icon-hd {
+	line-height: 1em;
+	position: relative;
+	width: 4em;
+}
+.jw-skin-lv2 .jw-icon-hd:before {
+	content: "QUALITY";
+	font-family: "FuturaStdMediumRegular", "Futura", sans-serif;
+	font-size: 0.5em;
+	left: 0;
+	padding: 0 !important;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+.jw-skin-lv2 .jw-icon-hd:after {
+	bottom: 0.25em;
+	color: #909090;
+	content: attr(data-quality);
+	font-family: "FuturaStdMediumRegular", "Futura", sans-serif;
+	font-size: 0.7em;
+	height: auto;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+.jw-skin-lv2 .jw-controlbar .jw-overlay {
+	bottom: 2em;
+}
+.jw-skin-lv2 .jw-icon-hd .jw-overlay {
+	width: 2.875em;
+}
+.jw-skin-lv2 .jw-icon-hd .jw-option,
+.jw-skin-lv2 .jw-icon-cc .jw-option {
+	font-size: 0.7em;
+	text-transform: none;
+}
+.jw-skin-lv2 .jw-icon-hd.fc-switching:after {
+	animation: fc-switching 1.5s infinite;
+}
+.jw-skin-lv2 .jw-captions-text {
+	background: transparent;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 3px #000000;
+	text-transform: none !important;
+}
+.jw-skin-lv2 .jw-button-color:focus,
+.jw-skin-lv2 .jw-toggle:focus {
+	background: rgba(128,128,128,0.5);
+}
+
+.jw-skin-lv2 .jw-icon-rewind {
+	display: none !important;
+}
+
+.jw-skin-lv2 .jw-display-icon-container.jw-display-icon-rewind,
+.jw-skin-lv2 .jw-display-icon-container.jw-display-icon-next {
+	display: none !important;
+}
+.jw-skin-lv2.jw-state-paused .jw-display {
+	display: table !important;
+}
+.jwplayer.jw-state-playing .jw-display {
+	display: none;
+}
+
+
+@keyframes fc-switching {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fc-switching {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fc-switching {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* IE11 Hack */
+@media all and (-ms-high-contrast:none)
+{
+	*::-ms-backdrop, .jw-skin-lv2 .jw-display .jw-icon:before { font-size: 0.5em }
+}
