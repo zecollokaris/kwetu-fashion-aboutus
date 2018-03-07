@@ -19,11 +19,129 @@ body {
 /*1st header*/
 
 #kwetulogotext {
+  font-family: 'Freckle Face', cursive;
   font-size: 25px;
   background-color: black;
-  margin-top: -11%;
+  margin-top: -2%;
   color: white;
+  position: fixed;
 }
+
+/*men button*/
+
+#menbutton {
+  padding: 6px 13px;
+  color: #E0008A;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Just Another Hand', cursive;
+  margin-right: 5%;
+  margin-top: -5%;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 33%;
+  margin-top: -2%;
+}
+
+#menbutton:hover {
+  color: white;
+  cursor: pointer;
+  -o-transition: .5s;
+  -ms-transition: 2.5s;
+  -webkit-transition: .5s;
+}
+
+/*End of men button*/
+
+/*Women button*/
+
+#womenbutton {
+  padding: 6px 13px;
+  color: #E0008A;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Just Another Hand', cursive;
+  margin-right: 5%;
+  margin-top: -5%;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: -4.5%;
+}
+
+#womenbutton:hover {
+  color: white;
+  cursor: pointer;
+  -o-transition: .5s;
+  -ms-transition: 2.5s;
+  -webkit-transition: .5s;
+}
+
+/*End of women button*/
+
+/*Children button*/
+
+#childrenbutton {
+  padding: 6px 13px;
+  color: #E0008A;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Just Another Hand', cursive;
+  margin-right: 5%;
+  margin-top: -5%;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 48%;
+  margin-top: -4.5%;
+}
+
+#childrenbutton:hover {
+  color: white;
+  cursor: pointer;
+  -o-transition: .5s;
+  -ms-transition: 2.5s;
+  -webkit-transition: .5s;
+}
+
+/*End of Children button*/
+
+/*Home button*/
+
+#homebutton {
+  padding: 6px 13px;
+  color: #E0008A;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Just Another Hand', cursive;
+  margin-right: 5%;
+  margin-top: -5%;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 56%;
+  margin-top: -4.5%;
+}
+
+#homebutton:hover {
+  color: white;
+  cursor: pointer;
+  -o-transition: .5s;
+  -ms-transition: 2.5s;
+  -webkit-transition: .5s;
+}
+
+/*End of Home button*/
 
 #menubutton {
   float: right;
@@ -35,7 +153,7 @@ body {
   text-align: center;
   border: 1px solid white;
   border-radius: 5px;
-  font-family: "Courier New", Courier, Monaco;
+  font-family: 'Just Another Hand', cursive;
   margin-right: 5%;
   margin-top: -5%;
   font-weight: bold;
@@ -55,12 +173,14 @@ body {
 /*ENd of 1st header*/
 
 #header1 {
-  background-color: #f3f3f3;
-  font-size: 14px;
+  background-color: #4F4B56;
+  color: font-size: 14px;
   line-height: 1.6;
-  justify-content: center;
+  width: 15%;
   text-align: center;
-  margin-top: 2%;
+  margin-left: 0%;
+  margin-top: -9%;
+  border-radius: 7%
 }
 
 /*End of 1st header*/
