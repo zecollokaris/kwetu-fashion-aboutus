@@ -231,4 +231,92 @@ body {
 
 /*discover button*/
 
-#discover {}
+#discover {
+  position: absolute;
+  padding: 6px 9px;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 0px;
+  font-family: 'Poiret One', cursive;
+  margin-left: 7.5%;
+  margin-top: 25%;
+  font-weight: bold;
+}
+
+#discover:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  -o-transition: .5s;
+  -ms-transition: 2.5s;
+  -webkit-transition: .5s;
+}
+
+/*About section*/
+
+.about h1 {
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+}
+
+.about h2 {
+  color: #777182;
+  font-size: 15px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-left: -8%
+}
+
+.about {
+  margin-left: 5%;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid grey;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 28%;
+}
+
+.second {
+  height: 80px;
+  border: 1px solid black;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#quote {
+  margin-left: 30%
+}
+
+#quotetxt {
+  margin-left: 37%;
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+}
+
+#quoted {
+  margin-left: 48%;
+  font-family: 'Poiret One', cursive;
+  font-size: 15px;
+}
+
+#lquote {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 9px solid yellow;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 45.5%;
+}
