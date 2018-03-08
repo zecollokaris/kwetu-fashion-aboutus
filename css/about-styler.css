@@ -263,12 +263,6 @@ body {
   font-family: 'Poiret One', cursive;
 }
 
-.about h2 {
-  color: #777182;
-  font-size: 15px;
-  font-family: 'Special Elite', cursive;
-  text-align: center;
-  margin-left: -8%
 }
 
 .about {
@@ -288,9 +282,9 @@ hr {
 }
 
 .second {
-  height: 80px;
+  height: 180px;
   border: 1px solid black;
-  bottom: 0;
+  margin-top: 180%;
   width: 100%;
   background-color: white;
 }
@@ -311,12 +305,142 @@ hr {
   font-size: 15px;
 }
 
-#lquote {
+#quoteline {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid yellow;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 45.5%;
+}
+
+.column1 {
+  float: left;
+  width: 45%;
+  text-align: center;
+  background-color: #F4F0EF;
+  margin-left: 3%;
+}
+
+.column2 {
+  float: right;
+  width: 45%;
+  text-align: center;
+  margin-right: 3%
+}
+
+#aboutline {
   display: block;
   height: 1px;
   border: 0;
   border-top: 9px solid yellow;
   margin: 1em 0;
   padding: 0;
-  margin-left: 45.5%;
+  margin-left: 30.5%;
+}
+
+.aboutimage img {
+  background-repeat: no-repeat;
+}
+
+.aboutimage h1 {
+  position: absolute;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  margin-left: 16%;
+  margin-top: 25%;
+  font-weight: bold;
+}
+
+#result {
+  position: absolute;
+  color: #777182;
+  font-size: 1px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-top: 40%
+}
+
+/*LINES*/
+
+#lblack {
+  position: absolute;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid black;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 38%;
+  margin-top: 12.5%;
+  opacity: 0.5;
+}
+
+#lwhite {
+  position: absolute;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 7px solid white;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 33.5%;
+  margin-top: 30.65%
+}
+
+#lpink2 {
+  position: absolute;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid pink;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 3%;
+  margin-top: 34.5%;
+  opacity: 0.8;
+}
+
+#lpink {
+  position: absolute;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid pink;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 0%;
+  margin-left: 81.6%;
+}
+
+#lgrey {
+  position: absolute;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid grey;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 45%;
+  margin-left: 28.5%;
+}
+
+.section4 {
+  background-image: url("../img/about-images/ghood.jpeg");
+  margin-top: 48%;
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.sec4text {
+  color: white;
+  font-family: 'Audiowide', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  opacity: 0.8;
 }
