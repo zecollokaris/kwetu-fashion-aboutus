@@ -2,7 +2,7 @@
 
 html {
   height: 100%;
-  background-image: url("../img/about-images/background1.jpeg");
+  background-image: url("../img/about-images/backdoor.jpeg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -43,7 +43,7 @@ body {
   margin-top: -5%;
   font-weight: bold;
   position: absolute;
-  margin-left: 45%;
+  margin-left: 15%;
   margin-top: -3.5%;
 }
 
@@ -72,7 +72,7 @@ body {
   margin-top: -5%;
   font-weight: bold;
   position: absolute;
-  margin-left: 53%;
+  margin-left: 23%;
   margin-top: -3.5%;
 }
 
@@ -88,7 +88,7 @@ body {
 
 /*Children button*/
 
-#childrenbutton {
+#kidsbutton {
   padding: 6px 13px;
   color: #E0008A;
   font-size: 18px;
@@ -101,11 +101,11 @@ body {
   margin-top: -5%;
   font-weight: bold;
   position: absolute;
-  margin-left: 61%;
+  margin-left: 31%;
   margin-top: -3.5%;
 }
 
-#childrenbutton:hover {
+#kidsbutton:hover {
   color: white;
   cursor: pointer;
   -o-transition: .5s;
@@ -130,7 +130,7 @@ body {
   margin-top: -5%;
   font-weight: bold;
   position: absolute;
-  margin-left: 69%;
+  margin-left: 39%;
   margin-top: -3.5%;
 }
 
@@ -144,73 +144,27 @@ body {
 
 /*End of Home button*/
 
-/*Shop button*/
-
-#shopbutton {
-  float: right;
-  padding: 6px 13px;
-  color: #E0008A;
-  font-size: 25px;
-  width: 120px;
-  height: 40px;
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 5px;
-  font-family: 'Just Another Hand', cursive;
-  margin-right: 5%;
-  margin-top: -3.5%;
-  font-weight: bold;
-}
-
-#shopbutton:hover {
-  border-radius: 5px;
-  background: white;
-  box-shadow: 5px 5px 5px #666;
-  cursor: pointer;
-  -o-transition: .5s;
-  -ms-transition: 2.5s;
-  -webkit-transition: .5s;
-  opacity: .50;
-}
-
-/*End of Shop button*/
-
-/*SEarch Bar*/
-
-#header1 {
-  background-color: #4F4B56;
-  color: white;
-  font-size: 14px;
-  line-height: 1.6;
-  width: 15%;
-  text-align: center;
-  margin-left: 32%;
-  margin-top: -4%;
-  border-radius: 7%
-}
-
-/*End of Search*/
-
 /*1st block coontetent -Images section*/
 
 .headphoto {
-  background-image: url("../img/about-images/groupphoto.jpg");
+  background-image: url("../img/about-images/standstair.jpeg");
   background-repeat: no-repeat;
   background-size: 97% 130%;
   text-align: center;
   padding-bottom: 40%;
   margin-top: 10%;
   margin-left: 3%;
-  background-position:
 }
 
 /*End of 1st block coontetent -Images section*/
 
 #kwet {
-  font-family: 'Freckle Face', cursive;
-  color: black;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  color: white;
   position: absolute;
   margin-left: 410%;
+  margin-top: 45%;
 }
 
 /*text inside image*/
@@ -222,7 +176,7 @@ body {
   font-size: 36px;
   font-weight: 700px;
   line-height: 56px;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-left: 4%;
   font-family: 'Monoton', cursive;
   color: white;
@@ -233,6 +187,7 @@ body {
 
 #discover {
   position: absolute;
+  background-color: black;
   padding: 6px 9px;
   color: white;
   font-size: 20px;
@@ -242,14 +197,15 @@ body {
   border: 1px solid white;
   border-radius: 0px;
   font-family: 'Poiret One', cursive;
-  margin-left: 7.5%;
-  margin-top: 25%;
-  font-weight: bold;
+  margin-left: 24%;
+  margin-top: 18.2%;
+  font-weight: 900;
 }
 
 #discover:hover {
-  color: white;
-  background-color: black;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
   cursor: pointer;
   -o-transition: .5s;
   -ms-transition: 2.5s;
@@ -443,4 +399,60 @@ hr {
   margin-left: 25%;
   margin-right: 25%;
   opacity: 0.8;
+}
+
+.section5 {
+  margin-top: 5%;
+  display: flex;
+  margin-left: 3%
+}
+
+.section6 {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 5%;
+  background-image: url("../img/about-images/stair.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-left: 2%;
+  font-family: 'Audiowide', cursive;
+  color: white;
+  opacity: 0.8;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.footer {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-color: black;
+  margin-left: 0%;
+  justify-content: center;
+  padding-top: 2.5%;
+  padding-bottom: 6%
+}
+
+.footer2 {
+  font-size: 10px;
+  position: absolute;
+  background-color: black;
+  margin-top: -2%;
+  color: white;
+  margin-left: 6%;
+}
+
+#divforbothfooters {
+  background-color: black;
+}
+
+#fwhite {
+  position: absolute;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid grey;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: -10%;
 }
